@@ -1,0 +1,17 @@
+<table border="1">
+    <tr>
+        <th>NAME</th>
+        <th>STUSPS</th>
+        <th>geometry</th>
+
+    </tr>
+
+    {% for x in dat %}
+        <tr>
+            <td>{{ x.NAME }}</td>
+            <td>{{ x.STUSPS }}</td>
+            <td>{{ x.mpoly.wkt }}</td>
+
+        </tr>
+    {% endfor %}
+</table>
