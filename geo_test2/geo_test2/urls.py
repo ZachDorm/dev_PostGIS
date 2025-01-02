@@ -26,4 +26,6 @@ urlpatterns = [
     path('map/', views.show_map),
     path('records/', views.get_all),
     path('test/', views.test)
+    path('thanks/', views.thanks)
+
 ]

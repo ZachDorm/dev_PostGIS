@@ -57,3 +57,8 @@ def show_map(request):
     context = {'map':m,}
 
     return render(request, 'geo_init/thanks.html', context)
+
+
+def home(request):
+    if 'test' in request.POST:
+        return render(request, 'geo_init/thanks.html', context)
