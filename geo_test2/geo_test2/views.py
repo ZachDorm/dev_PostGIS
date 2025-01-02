@@ -30,7 +30,7 @@ def thanks(request):
     return render(request, "geo_init/thanks.html")
 
 
-
+#returns all features in the database using get.html
 def get_all(request):
     dat = States.objects.all().values()
 
