@@ -52,3 +52,6 @@ def get_all(request):
         'state' : dat
     }
     return render(context, request)
+
+def nav(request):
+    return render(request, "nav_temp.html")

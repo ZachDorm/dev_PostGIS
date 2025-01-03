@@ -29,7 +29,10 @@ def get_name(request):
 def thanks(request):
     return render(request, "geo_init/thanks.html")
 
+def nav(request):
+    return render(request, "geo_init/nav_temp.html")
 
+    
 #returns all features in the database using get.html
 def get_all(request):
     dat = States.objects.all().values()
