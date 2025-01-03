@@ -25,8 +25,8 @@ urlpatterns = [
     path('form/', views.get_name),
     path('map/', views.show_map),
     path('records/', views.get_all),
-    path('test/', views.test)
-    path('thanks/', views.thanks)
-    path('nav/', views.nav_temp)
+    path('test/', views.test),
+    path('thanks/', views.thanks),
+    path('nav/', views.nav_temp),
 
 ]
